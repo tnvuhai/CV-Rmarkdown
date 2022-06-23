@@ -45,16 +45,9 @@ if(params$pdf_mode) {
 </style>")
 }
 ```
-
-
 Aside
 ================================================================================
-
-```{r}
-# Build interactive network of positions colored by section
-# and connected if they occurred in the same year
-datadrivencv::build_network_logo(CV$entries_data)
-```
+![my image](D:/ẢNH/1.jpg){height=250px}
 
 
 ```{r}
@@ -88,7 +81,7 @@ Disclaimer {#disclaimer}
 
 Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
 
-The source code is available [on github.com/nstrayer/cv](https://github.com/tnvuhai/CV-Rmarkdown).
+The source code is available [on github.com/tnvuhai/CV-Rmarkdown](https://github.com/tnvuhai/CV-Rmarkdown).
 
 Last updated on `r Sys.Date()`.
 
@@ -137,14 +130,12 @@ CV %<>% print_section('project_and_research')
 <br>
 <br>
 
-Teaching Experience {data-icon=chalkboard-teacher}
+certificate {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
-::: aside
 ```{r}
 CV %<>% print_section('certificate')
 ```
-:::
 
 
 ```{r}
