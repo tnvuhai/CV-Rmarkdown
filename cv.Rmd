@@ -47,12 +47,12 @@ if(params$pdf_mode) {
 ```
 Aside
 ================================================================================
-![my image](D:/ẢNH/1.jpg){height=250px}
+![my image](D:/ẢNH/1.jpg){height=210px}
 
 
 ```{r}
 if(params$pdf_mode){
-  cat("I'm just regular student who want to study abroad")
+  cat("Download a PDF of this: https://github.com/tnvuhai/CV-Rmarkdown/blob/main/strayer_cv.pdf")
 } else {
   cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/nstrayer/cv/raw/master/strayer_cv.pdf)")
 }
@@ -73,7 +73,6 @@ Language Skills {#skills}
 ```{r}
 CV %>% print_skill_bars()
 ```
-
 
 
 Disclaimer {#disclaimer}
